@@ -1,0 +1,31 @@
+/* Write your CSS here */
+.light-theme-home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  list-style-type: none;
+}
+.dark-theme-home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #000000;
+  list-style-type: none;
+}
+
+.light-theme-image {
+  height: 100px;
+  width: 100px;
+}
+.light-theme-heading {
+  font-size: 30px;
+  color: #000000;
+}
+.dark-theme-heading {
+  font-size: 30px;
+  color: white;
+}

@@ -1,0 +1,52 @@
+/* Write your CSS here */
+.light-theme-nav-container {
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+}
+.dark-theme-nav-container {
+  background-color: #000000;
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+}
+.light-theme-website-logo {
+  height: 40px;
+  width: 40px;
+}
+.dark-theme-website-logo {
+  color: white;
+  height: 40px;
+  width: 40px;
+}
+.change-theme-button {
+  background-color: transparent;
+  border-width: 0px;
+}
+.light-theme-home-about {
+  display: flex;
+  color: black;
+  font-family: 'Roboto';
+}
+.dark-theme-home-about {
+  display: flex;
+
+  font-family: 'Roboto';
+}
+.light-home-about-heading {
+  font-size: 15px;
+  margin-right: 15px;
+  color: #000000;
+  font-weight: bold;
+}
+.dark-home-about-heading {
+  font-size: 15px;
+  margin-right: 15px;
+  color: white;
+  font-weight: bold;
+}
+.home-link {
+  list-style-type: none;
+}

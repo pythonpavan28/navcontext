@@ -1,0 +1,21 @@
+/* Write your CSS here */
+.not-found-light-theme-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: black;
+}
+.not-found-dark-theme-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+  background: black;
+}
+.not-found-image {
+  width: 50%;
+}
